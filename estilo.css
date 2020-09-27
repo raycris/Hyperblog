@@ -1,19 +1,27 @@
-body{
-    color: rgb(20, 66, 214);
-    text-align: center;
+body{  
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid  #aaaaaa;;
 }
 
-.Main-container {
+.Main-container{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 600; 
+    padding: 10px; 
     
 }
 
 .cabecera{
-    border: 1px solid red;
+    border: 1px solid #aaaaaa;
+    background-color: #0a41cc;
+    color: white;
 }
 
-.Main-container h1{
-    font-style: oblique;
+.cabecera-blog span{
+    display: flex;
+    align-items: flex-end;
+}
+
+.cabecera h3{
+    text-align: left;
+    padding: 10px;
 }
