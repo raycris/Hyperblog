@@ -3,9 +3,16 @@ body{
     border: 1px solid  #aaaaaa;;
 }
 
-.Main-container {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.Main-Container {
+    font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.Main-Container p{
+    text-align: center;
 }
 
 .cabecera{
@@ -14,9 +21,13 @@ body{
     color: white;
 }
 
-.cabecera-blog span{
+.cabecera-blog {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .cabecera h3{
