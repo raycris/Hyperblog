@@ -7,6 +7,11 @@ body{
 .Main-container {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
+    
+}
+
+.cabecera{
+    border: 1px solid red;
 }
 
 .Main-container h1{
