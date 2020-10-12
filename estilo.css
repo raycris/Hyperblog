@@ -1,7 +1,7 @@
 body{ 
-
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid  #aaaaaa;;
+    border: 1px solid  #aaaaaa;
+    background-color: black;
 }
 
 .Main-Container {
@@ -10,6 +10,7 @@ body{
     text-align: left;
     font-size: 18px;
     padding: 10px;
+    background-color: white;
 }
 
 .Main-Container p{
@@ -34,4 +35,11 @@ body{
 .cabecera h3{
     text-align: left;
     padding: 10px;
+}
+
+.imagen-nave{
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
