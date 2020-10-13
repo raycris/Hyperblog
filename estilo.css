@@ -1,7 +1,8 @@
 body{ 
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid  #aaaaaa;
     background-color: black;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .Main-Container {
@@ -21,6 +22,10 @@ body{
     border: 1px solid #aaaaaa;
     background-color: #0a41cc;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cabecera-blog {
