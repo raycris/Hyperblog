@@ -1,6 +1,8 @@
 body{ 
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid  #aaaaaa;;
+    background-color: black;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .Main-Container {
@@ -9,6 +11,7 @@ body{
     text-align: left;
     font-size: 18px;
     padding: 10px;
+    background-color: white;
 }
 
 .Main-Container p{
@@ -19,6 +22,10 @@ body{
     border: 1px solid #aaaaaa;
     background-color: #0a41cc;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cabecera-blog {
@@ -46,4 +53,10 @@ body{
     display: -webkit-inline-box;
     background-color: #0a41cc;
     color: white;
+    
+.imagen-nave{
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
